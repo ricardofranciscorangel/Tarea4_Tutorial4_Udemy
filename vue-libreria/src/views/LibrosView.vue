@@ -78,7 +78,7 @@ export default {
                         </button>
                         <RouterLink class="btn editar" :to="{path:'editarLibro/'+libro.id}">Editar</RouterLink>
                     </div>
-
+                    
                 </tr>
             </tbody>
         </table>
@@ -92,7 +92,7 @@ table {
     margin: 25px auto;
     box-shadow: 0 0 20px rgba(0,0,0,0.2);
 }
-th, th{
+th, td{
     border: 1px solid black;
     padding: 10px;
 }

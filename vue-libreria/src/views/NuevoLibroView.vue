@@ -49,27 +49,27 @@ export default {
             <div>
                 <div>
                     <label for="titulo">Título</label>
-                <input v-model="nuevoLibro.titulo" type="text" required paceholder="Titulo">
+                <input v-model="nuevoLibro.titulo" type="text" required placeholder="Titulo">
                 </div>
                 <div>
                     <label for="autor">Autor</label>
-                <input v-model="nuevoLibro.autor" type="text" required paceholder="Autor">
+                <input v-model="nuevoLibro.autor" type="text" required placeholder="Autor">
                 </div>
                 <div>
                     <label for="ISBN">ISBN</label>
-                <input v-model="nuevoLibro.ISBN" type="text" required paceholder="ISBN">
+                <input v-model="nuevoLibro.ISBN" type="text" required placeholder="ISBN">
                 </div>
                 <div>
                     <label for="genero">Genero</label>
-                <input v-model="nuevoLibro.genero" type="text" required paceholder="Genero">
+                <input v-model="nuevoLibro.genero" type="text" required placeholder="Genero">
                 </div>
                 <div>
                     <label for="precio">Precio</label>
-                <input v-model="nuevoLibro.precio" type="text" required paceholder="Precio">
+                <input v-model="nuevoLibro.precio" type="text" required placeholder="Precio">
                 </div>
                 <div>
                     <label for="disponibilidad">Disponibilidad</label>
-                <input v-model="nuevoLibro.disponibilidad" type="text" required paceholder="Disponibilidad">
+                <input v-model="nuevoLibro.disponibilidad" type="text" required placeholder="Disponibilidad">
                 </div>
             </div>
             <button class="btn enviar" type="submit">Agregar Libro</button>
