@@ -84,11 +84,64 @@ export default {
                 <input v-model="editarLibro.disponibilidad" type="text" required paceholder="Disponibilidad">
                 </div>
             </div>
-            <button type="submit">Guardar cambios</button>
+            <button class="btn enviar" type="submit">Guardar cambios</button>
         </form>
     </main>
 </template>
 
-<style>
+<style scoped>
+form{
+    width: 90%;
+    margin: 25px auto;
+    padding: 20px;
+    border: solid 1px black;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    
+}
+
+label {
+    font-weight: bold;
+ margin-bottom: 5px;
+ display: block;
+ font-size: 1rem;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid black;
+    margin-bottom: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+}
+
+input:focus {
+    outline: none;
+}
+.btn {
+    background-color: transparent;
+    border: none;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    color:black;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    width: 100%;
+}
+
+.enviar {
+    margin-top: 10px;
+    background-color: rgba(13, 179, 121, 0.644);
+    color: white;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.enviar:hover{
+    background-color: rgb(4, 53, 43);
+    transition: background-color 0.3s ease-in-out;
+}
 
 </style>
